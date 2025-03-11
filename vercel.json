@@ -1,0 +1,15 @@
+{
+
+ "version":2,
+    "builds":[
+        {
+            "src":"backend/server.js",
+            "use":"@arcjet/node"
+        },
+        {
+            "src":"frontend/build",
+            "use":"@now/static"
+        }
+    ]
+}
+   
